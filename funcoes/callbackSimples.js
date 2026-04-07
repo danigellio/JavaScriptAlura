@@ -1,0 +1,11 @@
+function executarAcao(acao) {
+  acao();
+}
+
+executarAcao(function () {
+  console.log("Executando ação!");
+});
+()
+/*executarAcao(() => {
+    console.log("Executando ação!");
+});*/
