@@ -12,7 +12,7 @@ console.log("Minutos:", agora.getMinutes());
 
 
 //criando data especifica
-const nascimento = new Date('1993-07-07T07:00:00.000Z') //time zone. colocomos assim ano mes dia //000z significa 000 no time zone, nem mais nem menos
+const nascimento = new Date('1993-07-06T07:00:00.000Z') //time zone. colocomos assim ano mes dia //000z significa 000 no time zone, nem mais nem menos
 console.log(nascimento)
 
 console.log('Data formatada (BR):' , nascimento.toLocaleDateString('pt-BR'))
