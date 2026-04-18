@@ -14,8 +14,7 @@ leitor.question('Digite o primeiro número \n>' , (numero1) => {
 
           leitor.question('Digite o segundo número:\n>', (numero2) => {
 
-               //tranformando o num 1 em number pq ele é string
-
+               //tranformando o num 1 em number pq se nao ele fica string
                const num1 = Number(numero1)
                const num2 = Number(numero2)
 
